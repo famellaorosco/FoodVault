@@ -27,6 +27,7 @@ public class DatabaseConnection extends SQLiteOpenHelper {
         VaultDatabase.execSQL("drop Table if exists allUsers");
         VaultDatabase.execSQL("drop Table if exists foodItems");
     }
+
      public Boolean insertAccountDetails(String firstName, String lastName, String userName, String email, String contactNo, String password) {
         SQLiteDatabase VaultDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
