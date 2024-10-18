@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378603740798",
+    "project_id": "foodvault-sfi-3266",
+    "storage_bucket": "foodvault-sfi-3266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378603740798:android:5126a72576971c746e422f",
+        "android_client_info": {
+          "package_name": "com.sfi.foodvault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYWe56k8BP8muUyfU7LOoVrd-WiL3vO3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

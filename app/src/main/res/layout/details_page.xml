@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/name"
+    android:background="@color/lavender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/itemname"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="244dp"
+        android:hint="@string/prompt_itemname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/itemtype"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/prompt_itemtype"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemname" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/prompt_quantity"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemtype" />
+
+    <EditText
+        android:id="@+id/preferredstock"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/prompt_stock"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quantity" />
+
+    <EditText
+        android:id="@+id/expirationdate"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/prompt_expiry"
+        android:inputType="datetime|date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preferredstock" />
+
+    <Button
+        android:id="@+id/add_item"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="208dp"
+        android:background="#00BCD4"
+        android:text="@string/action_add"
+        android:textColor="@color/davy_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
